@@ -8,6 +8,9 @@ class Ground {
       this.height = height;
       World.add(world, this.body);
     }
+
+
+    //hi
     display(){
       var pos =this.body.position;
       rectMode(CENTER);
